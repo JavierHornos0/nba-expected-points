@@ -1,0 +1,22 @@
+# R / RStudio
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj.user/
+
+# Large outputs (do not commit)
+data/
+models/
+outputs/
+
+# Common artifacts
+*.parquet
+*.rds
+*.png
+
+# Optional: keep CSVs if you want; otherwise ignore them too
+# *.csv
+
+# OS
+.DS_Store
+Thumbs.db
